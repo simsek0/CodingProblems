@@ -21,7 +21,7 @@ public class stackSolution {
 			}
 			else if(myStack.isEmpty())
 			{
-				cond=false;
+				return false;
 			}
 			else
 			{
@@ -30,17 +30,15 @@ public class stackSolution {
 				   i=='}' && myStack.pop() == '{')
 				{
 					cond=true;
-					break;
+				}
+				else
+				{
+					return false;
 				}
  			}
-			
-			
-		}	
-			
+		}
 		
-		
-		
-		return cond;
+			return myStack.isEmpty();
 		}
 		public static void main(String [] args)
 	{
