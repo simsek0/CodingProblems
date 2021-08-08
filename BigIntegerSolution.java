@@ -1,18 +1,21 @@
 package HackerRank;
 
 import java.math.BigInteger;
+import java.util.Scanner;
 
 public class BigIntegerSolution {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int a=10000000;
-		int b=20000000;
+		Scanner scan =new Scanner(System.in);
+		
 		BigInteger A,B;
-		A=BigInteger.valueOf(a);
-		B=BigInteger.valueOf(b);
-		System.out.println(A.multiply(B));
+
+		A=scan.nextBigInteger();
+		B=scan.nextBigInteger();
+		
+		System.out.println(A.add(B)+"\n"+A.multiply(B));
 		
 	}
 
