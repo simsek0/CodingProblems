@@ -8,7 +8,7 @@ public class DataTypes {
 
 		
 		
-		   Scanner sc = new Scanner(System.in);
+		 Scanner sc = new Scanner(System.in);
 	        int t=sc.nextInt();
 
 	        for(int i=0;i<t;i++)
@@ -46,6 +46,9 @@ public class DataTypes {
 		
 		
 	}
+		
+		
+	}
 
 }
-}
+
