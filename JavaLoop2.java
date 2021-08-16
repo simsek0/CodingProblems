@@ -25,7 +25,7 @@ public class JavaLoop2 {
 	            	System.out.print(num+" ");
 	            	
 	            }
-	         System.out.println("\n");
+	         System.out.println();
 	        
 	        }
 	        in.close();
