@@ -32,7 +32,7 @@ public class Testing7 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		duplicate("Great Responsibility");
+		
 		
 		System.out.println(duplicate("Great Responsibility"));
 
