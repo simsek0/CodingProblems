@@ -44,7 +44,7 @@ public class JavaList {
 			System.out.print(i+" ");
 		}
 		
-		
+		scan.close();
 	}
 
 }
