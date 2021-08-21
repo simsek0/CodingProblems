@@ -1,4 +1,3 @@
-package HackerRank;
 
 public class JavaStringTokens {
 

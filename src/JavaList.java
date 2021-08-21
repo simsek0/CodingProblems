@@ -1,4 +1,3 @@
-package HackerRank;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -45,7 +44,7 @@ public class JavaList {
 			System.out.print(i+" ");
 		}
 		
-		
+		scan.close();
 	}
 
 }

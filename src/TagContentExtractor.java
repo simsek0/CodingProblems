@@ -1,4 +1,4 @@
-package HackerRank;
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -7,8 +7,7 @@ import java.util.regex.*;
 public class TagContentExtractor {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
 		
 		Scanner in = new Scanner (System.in);
 		int testCases = Integer.parseInt(in.nextLine());
