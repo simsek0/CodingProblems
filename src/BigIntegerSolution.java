@@ -1,5 +1,3 @@
-package HackerRank;
-
 import java.math.BigInteger;
 import java.util.Scanner;
 
