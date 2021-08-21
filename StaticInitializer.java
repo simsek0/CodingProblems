@@ -11,6 +11,8 @@ public class StaticInitializer {
 	static int B;
 	static int H;
 	static boolean flag;
+	
+	//static will get executed..
 	static  {
 		Scanner scan = new Scanner(System.in);
 		B=scan.nextInt();
