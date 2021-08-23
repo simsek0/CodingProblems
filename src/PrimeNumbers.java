@@ -4,7 +4,7 @@ public class PrimeNumbers {
 		
 		// Print prime numbers btw 1 and 20
 		
-		for(int i=1; i <= 20; i++) {
+		for(int i=2; i <= 36; i++) {
 			
 			
 			if(i == 2 || i == 3) {
