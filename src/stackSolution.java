@@ -1,4 +1,4 @@
-package HackerRank;
+
 import java.util.*;
 public class stackSolution {
 

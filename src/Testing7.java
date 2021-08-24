@@ -1,4 +1,4 @@
-package HackerRank;
+
 
 
 public class Testing7 {

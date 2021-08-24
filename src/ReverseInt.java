@@ -1,4 +1,4 @@
-package HackerRank;
+
 public class ReverseInt {
 	
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package HackerRank;
+
 
 //Mufasa Simsek
 //8.10/2021
