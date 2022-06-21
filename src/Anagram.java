@@ -1,5 +1,10 @@
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map.Entry;
+import java.util.Set;
 public class Anagram {
 
 	public static void main(String[] args) {
@@ -10,7 +15,6 @@ public class Anagram {
 		// two string arguments and will return true if they are anagram and false if they are not.
 		// isAnagram("listen", "silent")     -> true
 
-		
 		System.out.println(anagrom("listen","silent"));
 	}
 	
@@ -22,8 +26,13 @@ public class Anagram {
 		Arrays.sort(a);
 		Arrays.sort(b);
 		
+		HashMap<Integer, Integer> map1=new HashMap<Integer,Integer>();
 		
+
+		Set<Entry<Integer,Integer>> set=new HashSet();
+		set=map1.entrySet();
 		
+			
 		
 		
 		return Arrays.equals(a, b);
